@@ -49,7 +49,7 @@ int main(int argc, char **argv)
   ros::init(argc, argv, "reflex_hand_dump_state");
   ros::NodeHandle nh, nh_private("~");
   string network_interface;
-  nh_private.param<string>("network_interface", network_interface, "eth0");
+  nh_private.param<string>("network_interface", network_interface, "enp4s0");
   reflex_hand::ReflexHand rh(network_interface);
   signal(SIGINT, signal_handler);
   signal(SIGTERM, signal_handler);

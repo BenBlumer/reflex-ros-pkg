@@ -1,4 +1,4 @@
 # Captured sensor values from unloaded state
-tactile_offset_f1: [215, 213, 205, 218, 206, 0, 0, 0, 0]
-tactile_offset_f2: [209, 197, 210, 195, 205, 255, 255, 255, 255]
-tactile_offset_f3: [236, 153, 160, 157, 206, 0, 0, 0, 0]
+tactile_offset_f1: [137, 149, 175, 167, 151, 135, 152, 141, 146]
+tactile_offset_f2: [157, 157, 156, 146, 142, 133, 137, 132, 136]
+tactile_offset_f3: [184, 190, 200, 192, 167, 173, 127, 191, 184]
